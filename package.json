@@ -1,0 +1,40 @@
+{
+  "name": "poisonjs",
+  "version": "0.0.1",
+  "description": "De-obfuscate eval-based JavaScript obfuscation with monkey-patched eval(-like) functions",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp",
+    "clean": "gulp clean",
+    "watch": "gulp watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/filipemgs/poisonjs.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "poisoning",
+    "tamper",
+    "deobfuscate",
+    "unpack"
+  ],
+  "author": "Filipe mgs <filipemgs@gmail.com>",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/filipemgs/poisonjs/issues"
+  },
+  "homepage": "https://github.com/filipemgs/poisonjs",
+  "dependencies": {},
+  "devDependencies": {
+    "browserify": "^16.5.0",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-uglify": "^3.0.2",
+    "lodash": "^4.17.15",
+    "react": "^0.14.8",
+    "reactify": "^1.1.1",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  }
+}

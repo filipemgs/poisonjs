@@ -1,0 +1,39 @@
+body {
+  padding: 20px;
+}
+body, * {
+  font-family: monospace;
+  font-size: 14px;
+  line-height: 1.4em;
+}
+p, li, textarea, div {
+  width: 100%;
+  max-width: 600px;
+}
+textarea {
+  display: block;
+  height: 200px;
+  margin: 1em 0;
+}
+.deobfuscateOutput {
+  margin-top: 10px;
+}
+.deobfuscateOutput div {
+  padding: 3px;
+  margin-bottom: 5px;
+  word-wrap: break-word;
+}
+.Function, .setTimeout, .eval {
+  color: green;
+  background-color: lightgreen;
+  border: 1px solid green;
+}
+.Failed {
+  color: red;
+  background-color: lightpink;
+  border: 1px dotted red;
+}
+
+.mailTo {
+  text-align: right;
+}
